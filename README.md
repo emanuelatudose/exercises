@@ -1,9 +1,3 @@
-# Exercise 1 - startup_namer
+# Exercise 2 - Login and Dashboard
 
-Build your first app and run on devices/emulators.
-
-## Resources
-
-- [Write your first Flutter app, part 1](https://flutter.dev/docs/get-started/codelab)
-
-- [Write Your First Flutter App, part 2](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2#0)
+In the app, add a login screen as the first screen of app which has username, password fields and login button. Create another screen with name dashboard. On clicking login button, check and show error for null values. If username and password fields are not null, user should navigate to next screen (Dashboard).
