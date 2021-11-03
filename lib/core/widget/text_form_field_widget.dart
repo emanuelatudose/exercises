@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class TextFormFieldWidget extends StatelessWidget {
-  // final String? Function(String?) validator;
   final String labelText;
   final TextEditingController controller;
   final bool hasFieldError;
@@ -10,7 +9,6 @@ class TextFormFieldWidget extends StatelessWidget {
 
   const TextFormFieldWidget({
     Key? key,
-    // required this.validator,
     required this.labelText,
     required this.controller,
     required this.hasFieldError,
